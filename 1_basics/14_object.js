@@ -36,7 +36,7 @@ console.log(yuJin2.dance());
 yuJin2['group'] = '코드팩토리';
 console.log(yuJin2);
 
-yuJin2['englishName'] = 'An Yu Jin';
+yuJin2['englishName'] = 'An Yu Jin'; // 존재하지않는 key에 값을 넣는다면? (다음 줄)
 console.log(yuJin2); // 새로운 프로퍼티(속성) 생성: englishName: 'An Yu Jin'
 
 /**
@@ -50,9 +50,9 @@ const wonYoung = {
     group:'아이브',
 }
 console.log(wonYoung); 
-// wonYoung = {}; [const] wonYoung => 값을 바꿀수없음
+// wonYoung = {}; [const] wonYoung  => 객체 자체는 변경 불가능
 
-wonYoung['group'] = '코드팩토리';
+wonYoung['group'] = '코드팩토리'; // 객체안의 프로퍼티나 메서는 변경 가능
 console.log(wonYoung);
 
 /**

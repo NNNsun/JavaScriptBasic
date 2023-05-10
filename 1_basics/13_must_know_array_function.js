@@ -126,6 +126,6 @@ console.log(numbers.find((x) => x % 2 == 0)); // 8 array가 아닌 해당되는 
 // findIndex(): 해당되는 가장 첫번째 값의 index
 console.log(numbers.findIndex((x) => x % 2 === 0)); // 1
 
-// reduce(): 함수의 return된 값을 다시 p에 넣음, 가장처음엔 이전값이 존재하지않음 => ( ,x)값으로 초기화
-console.log(numbers.reduce((p, n) => p + n, 0)); // 25, pre(이전)+next(다음)
+// reduce(): 함수의 return된 값을 다시 p에 넣음, 가장 처음엔 이전값이 존재하지않음 => ( ,x)값으로 초기화
+console.log(numbers.reduce((p, n) => p + n, 0)); // 25, pre(이전)+next(다음) 피보나치 느낌!
 
